@@ -30,6 +30,20 @@ a .navbar {
 .iconoparrafo {
   background-color: #3aa9d4;
 }
+
+/* DESTACADOS */
+
+.card {
+  background-color: #3aa9d4;
+}
+/* 
+.segImg {
+  object-fit: cover;
+  width: 89%;
+} */
+
+/* DESTACADOS */
+
 /* MEDIAQUERYS */
 
 @media (max-width: 575.98px) {
