@@ -36,6 +36,17 @@ a .navbar {
 .card {
   background-color: #3aa9d4;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #3aa9d4;
+  font-size: 1rem;
+}
+
+footer i {
+  margin: 0 5%;
+}
 /* 
 .segImg {
   object-fit: cover;
@@ -53,6 +64,9 @@ a .navbar {
 }
 /* MEDIUM */
 @media (min-width: 768px) {
+  footer {
+    font-size: 2rem;
+  }
 }
 /* LARGE */
 @media (min-width: 992px) {
