@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  /* border: 1px red solid; */
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navfijo {
+  position: fixed;
+  z-index: 99;
+}
+
+svg {
+  width: 10%;
+  display: flex;
+}
+
+a .navbar {
+  display: flex;
+}
+
+.contSvg {
+  width: 50%;
+}
+
+/* MEDIAQUERYS */
+
+@media (max-width: 575.98px) {
+}
+
+@media (min-width: 576px) {
+}
+/* MEDIUM */
+@media (min-width: 768px) {
+}
+/* LARGE */
+@media (min-width: 992px) {
+  .contSvg {
+    width: 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+}
