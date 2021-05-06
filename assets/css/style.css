@@ -26,6 +26,10 @@ a .navbar {
   width: 50%;
 }
 
+/* QUIENES SOMOS */
+.iconoparrafo {
+  background-color: #3aa9d4;
+}
 /* MEDIAQUERYS */
 
 @media (max-width: 575.98px) {
