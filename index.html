@@ -23,6 +23,7 @@
   </head>
   <body>
     <!-- NAV Y CARROUSEL -->
+    <div class="fondoNegroNav"></div>
     <div class="header">
       <div
         id="carouselExampleControls"
@@ -59,13 +60,17 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Quienes Somos</a>
+                    <a
+                      class="nav-link d-none d-sm-none d-md-block"
+                      href="#quienesSomos"
+                      >Quienes Somos</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Destacados</a>
+                    <a class="nav-link" href="#destacados">Destacados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -115,8 +120,15 @@
     </div>
 
     <!-- QUIENES SOMOS -->
-    <div class="container d-none d-sm-none d-md-block">
-      <div class="titulo text-center mt-4">¿Quiénes somos?</div>
+    <div class="container d-none d-sm-none d-md-block" id="quienesSomos">
+      <div
+        class="titulo text-center mt-4"
+        data-bs-toggle="tooltip"
+        data-bs-placement="right"
+        title="Somos los mejores!"
+      >
+        ¿Quiénes somos?
+      </div>
       <hr size="2px" color="#3aa9d4" class="" />
       <div class="row mx-1 mt-4">
         <div class="col-4">
@@ -160,7 +172,17 @@
 
     <!-- DESTACADOS -->
 
-    <div class="container my-4">
+    <div class="container my-4" id="destacados">
+      <div
+        class="titulo text-center mt-4"
+        data-bs-toggle="tooltip"
+        data-bs-placement="right"
+        title="Los mejores paisajes!"
+      >
+        Destacados
+      </div>
+      <hr size="2px" color="#3aa9d4" class="" />
+
       <div class="row">
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card mb-3 w-100" style="width: 18rem">
@@ -215,8 +237,15 @@
 
     <!-- TYPEFORM -->
 
-    <div class="container my-4">
-      <div class="titulo text-center mt-4">Contacto</div>
+    <div class="container my-4" id="contacto">
+      <div
+        class="titulo text-center mt-4"
+        data-bs-toggle="tooltip"
+        data-bs-placement="right"
+        title="Te enviaremos valiosa información!"
+      >
+        Contacto
+      </div>
       <hr size="2px" color="#3aa9d4" class="" />
       <div
         class="typeform-widget"
@@ -254,10 +283,48 @@
           <div class="col-6 text-center">VIAJES CHILE</div>
           <div class="col-6 text-center">
             <div class="iconosFooter">
-              <i class="fab fa-github-square"></i>
-              <i class="fab fa-linkedin"></i>
-              <i class="fab fa-twitter-square"></i>
-              <i class="fab fa-facebook-square"></i>
+              <a
+                href="https://github.com/"
+                class="text-decoration-none text-white"
+              >
+                <i
+                  class="fab fa-github-square"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Visitanos en Github!"
+                ></i
+              ></a>
+              <a
+                href="https://cl.linkedin.com/"
+                class="text-decoration-none text-white"
+                ><i
+                  class="fab fa-linkedin"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Visitanos en linkedIn!"
+                ></i
+              ></a>
+              <a
+                href="https://twitter.com/?lang=es"
+                class="text-decoration-none text-white"
+                ><i
+                  class="fab fa-twitter-square"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Visitanos en twitter!"
+                ></i
+              ></a>
+
+              <a
+                href="https://es-la.facebook.com/"
+                class="text-decoration-none text-white"
+                ><i
+                  class="fab fa-facebook-square"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Visitanos en Facebook!"
+                ></i
+              ></a>
             </div>
           </div>
         </div>

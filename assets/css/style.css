@@ -4,12 +4,14 @@ body {
   /* border: 1px red solid; */
 }
 
+.header {
+  z-index: 999;
+}
 .navbar {
   background-color: transparent;
 }
 
 .navfijo {
-  position: fixed;
   z-index: 99;
 }
 
@@ -28,32 +30,25 @@ a .navbar {
 
 /* QUIENES SOMOS */
 .iconoparrafo {
-  background-color: #3aa9d4;
+  background-color: #0a6183;
 }
 
 /* DESTACADOS */
 
 .card {
-  background-color: #3aa9d4;
+  background-color: #0a6183;
 }
 
 /* FOOTER */
 
 footer {
-  background-color: #3aa9d4;
+  background-color: #0a6183;
   font-size: 1rem;
 }
 
 footer i {
   margin: 0 5%;
 }
-/* 
-.segImg {
-  object-fit: cover;
-  width: 89%;
-} */
-
-/* DESTACADOS */
 
 /* MEDIAQUERYS */
 
@@ -61,6 +56,12 @@ footer i {
 }
 
 @media (min-width: 576px) {
+  .contSvg {
+    width: 30%;
+  }
+  footer {
+    font-size: 2rem;
+  }
 }
 /* MEDIUM */
 @media (min-width: 768px) {
